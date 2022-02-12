@@ -27,7 +27,7 @@ watch docker logs nexus3
 
 # Create repository
 
-![image-20220212211026973](assets/images/image-20220212211026973.png)
+![image-20220212215706009](assets/images/image-20220212215706009.png)
 
 # 测试
 
@@ -38,7 +38,7 @@ watch docker logs nexus3
 ```sh
 tee /etc/docker/daemon.json <<-'EOF'
 {
-  "insecure-registries": ["nexus3-ip:8081"]
+  "insecure-registries": ["nexus3-ip:7001"]
 }
 EOF
 
@@ -50,7 +50,7 @@ systemctl restart docker
 ## 登录
 
 ```sh
-docker login -u admin -p admin123 nexus3-ip:8083
+docker login -u admin -p admin123 nexus3-ip:7001
 ```
 
 ## push 
@@ -60,8 +60,8 @@ docker login -u admin -p admin123 nexus3-ip:8083
 
 ```sh
 docker pull hello-world
-docker tag hello-world:latest nexus3-ip:8083/my-hello-world:1.0
-docker push nexus3-ip:8083/my-hello-world:1.0
+docker tag hello-world:latest nexus3-ip:7001/my-hello-world:1.0
+docker push nexus3-ip:7/my-hello-world:1.0
 ```
 
 # 其他模式介绍
