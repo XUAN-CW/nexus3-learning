@@ -1,5 +1,5 @@
 ---
-title: nexus3
+title: nexus3-docker
 tags: 
 date: 2022-02-12 18:31:11
 id: 1644661871858288100
@@ -61,7 +61,7 @@ docker login -u admin -p admin123 nexus3-ip:7001
 ```sh
 docker pull hello-world
 docker tag hello-world:latest nexus3-ip:7001/my-hello-world:1.0
-docker push nexus3-ip:7/my-hello-world:1.0
+docker push nexus3-ip:7001/my-hello-world:1.0
 ```
 
 # 其他模式介绍
