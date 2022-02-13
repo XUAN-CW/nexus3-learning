@@ -16,9 +16,9 @@ http://ps:7000/repository/yum-private-service/
 
 # 代理
 
-- 163 ： http://mirrors.163.com/centos/7/updates/x86_64/ 
-- kubernetes ：  http://mirrors.aliyun.com/kubernetes/yum/repos/kubernetes-el7-x86_64 
-- docker-ce： http://mirrors.aliyun.com/docker-ce/linux/centos/7/x86_64/stable/ 
+- centos-163 ： http://mirrors.163.com/centos/7/updates/x86_64/ 
+- aliyun-kubernetes ：  http://mirrors.aliyun.com/kubernetes/yum/repos/kubernetes-el7-x86_64 
+- aliyun-docker-ce： http://mirrors.aliyun.com/docker-ce/linux/centos/7/x86_64/stable/ 
 
 # 测试
 
