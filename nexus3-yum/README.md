@@ -40,3 +40,22 @@ http://mirrors.aliyun.com/docker-ce/linux/centos/
 baseurl=http://your-nexus.com/repository/docker-ce-repo/$releasever/$basearch/stable
 ```
 
+因此建议：
+
+```
+http://mirrors.aliyun.com/docker-ce/linux/centos/7/x86_64/stable/
+```
+
+
+
+
+
+
+
+# 清理缓存
+
+```
+yum clean all 
+$ yum makecache
+```
+
