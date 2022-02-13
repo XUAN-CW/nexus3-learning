@@ -28,10 +28,15 @@ http://mirrors.163.com/centos/7/updates/x86_64/
 
 
 
-未验证
+可用，
 
 ```
 http://mirrors.aliyun.com/docker-ce/linux/centos/
+```
 
+但是配置时需要：
+
+```
+baseurl=http://your-nexus.com/repository/docker-ce-repo/$releasever/$basearch/stable
 ```
 
