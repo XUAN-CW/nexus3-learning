@@ -14,41 +14,9 @@ id: 1644733303678989500
 
 # 代理
 
-已验证，有用：
-
-```
-http://mirrors.163.com/centos/7/updates/x86_64/
-```
-
-```
- kubernetes的 Remote storage填写： http://mirrors.aliyun.com/kubernetes/yum/repos/kubernetes-el7-x86_64
-```
-
-```
-http://mirrors.aliyun.com/docker-ce/linux/centos/7/x86_64/stable/
-```
-
-
-
-可用，
-
-```
-http://mirrors.aliyun.com/docker-ce/linux/centos/
-```
-
-但是配置时需要 `cd /etc/yum.repos.d` 配置 repo：
-
-```
-baseurl=http://your-nexus.com/repository/docker-ce-repo/$releasever/$basearch/stable
-```
-
-因此建议：
-
-```
-http://mirrors.aliyun.com/docker-ce/linux/centos/7/x86_64/stable/
-```
-
-
+- 163 ： http://mirrors.163.com/centos/7/updates/x86_64/ 
+- kubernetes ：  http://mirrors.aliyun.com/kubernetes/yum/repos/kubernetes-el7-x86_64 
+- docker-ce： http://mirrors.aliyun.com/docker-ce/linux/centos/7/x86_64/stable/ 
 
 
 
@@ -60,10 +28,6 @@ http://mirrors.aliyun.com/docker-ce/linux/centos/7/x86_64/stable/
 yum clean all 
 yum makecache
 ```
-
-
-
-
 
 # 测试
 
