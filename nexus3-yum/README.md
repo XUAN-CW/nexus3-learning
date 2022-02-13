@@ -8,17 +8,36 @@ id: 1644733303678989500
 
 
 
-# 对外暴露
+# 实现步骤
+
+## proxy
+
+- centos7-163 ： http://mirrors.163.com/centos/7/updates/x86_64/ 
+- aliyun-kubernetes ：  http://mirrors.aliyun.com/kubernetes/yum/repos/kubernetes-el7-x86_64 
+- aliyun-docker-ce： http://mirrors.aliyun.com/docker-ce/linux/centos/7/x86_64/stable/ 
+
+## group
+
+对外暴露：
 
 ```
 http://ps:7000/repository/yum-private-service/
 ```
 
-# 代理
+## 使用者配置
 
-- centos7-163 ： http://mirrors.163.com/centos/7/updates/x86_64/ 
-- aliyun-kubernetes ：  http://mirrors.aliyun.com/kubernetes/yum/repos/kubernetes-el7-x86_64 
-- aliyun-docker-ce： http://mirrors.aliyun.com/docker-ce/linux/centos/7/x86_64/stable/ 
+```
+# 配置仓库
+cat <<EOF | sudo tee /etc/yum.repos.d/yum-private-service.repo
+[yum-private-service-repo]
+name=yum-private-service
+baseurl=http://ps:7000/repository/yum-private-service/
+gpgcheck=0
+gpgkey=
+EOF
+```
+
+
 
 # 测试
 
