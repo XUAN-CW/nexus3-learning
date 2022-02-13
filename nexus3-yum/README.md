@@ -12,7 +12,10 @@ id: 1644733303678989500
 
 ## proxy
 
-- centos7-163 ： http://mirrors.163.com/centos/7/updates/x86_64/ 
+- 163-centos7-os：  http://mirrors.163.com/centos/7/os/x86_64/ 
+- 163-centos7-updates ： http://mirrors.163.com/centos/7/updates/x86_64/ 
+- 163-centos7-extras ： http://mirrors.163.com/centos/7/extras/x86_64/ 
+- 163-centos7-centosplus ： http://mirrors.163.com/centos/7/centosplus/x86_64/ 
 - aliyun-kubernetes ：  http://mirrors.aliyun.com/kubernetes/yum/repos/kubernetes-el7-x86_64 
 - aliyun-docker-ce： http://mirrors.aliyun.com/docker-ce/linux/centos/7/x86_64/stable/ 
 
