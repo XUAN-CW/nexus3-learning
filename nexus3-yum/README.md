@@ -60,6 +60,6 @@ sudo yum install -y kubelet-1.20.9 kubeadm-1.20.9 kubectl-1.20.9 --disableexclud
 
 
 ```sh
- yum update --downloadonly --downloaddir=/tmp/
+ yum update --downloadonly --downloaddir=/tmp/ -y
 ```
 
