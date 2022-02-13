@@ -26,8 +26,9 @@ http://ps:7000/repository/yum-private-service/
 
 ## 使用者配置
 
+配置仓库：
+
 ```
-# 配置仓库
 cat <<EOF | sudo tee /etc/yum.repos.d/yum-private-service.repo
 [yum-private-service-repo]
 name=yum-private-service
@@ -37,7 +38,9 @@ gpgkey=
 EOF
 ```
 
+**baseurl** 不要手写，要从页面上复制：
 
+![image-20220213155241989](assets/images/image-20220213155241989.png)
 
 # 测试
 
