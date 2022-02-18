@@ -16,11 +16,6 @@ id: 1644661871858288100
 
 ![image-20220218192615878](assets/images/image-20220218192615878.png)
 
-## docker-hosted
-
-1. Name：随意，我这里填 docker-hosted
-2. 勾选 **Allow anonymous docker pull** 
-
 ## docker (group)
 
 1. Name：随意，我这里填 docker-private-server
