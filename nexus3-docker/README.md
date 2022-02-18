@@ -46,7 +46,6 @@ echo "192.168.0.10 ps" >> /etc/hosts
 # 添加镜像、加入授信列表
 tee /etc/docker/daemon.json <<-'EOF'
 {
-
   "registry-mirrors": ["http://ps:7001"],
   "insecure-registries": ["ps:7002"]
 }
