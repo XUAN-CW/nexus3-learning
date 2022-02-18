@@ -136,7 +136,9 @@ docker pull tomcat:9.0.56-jre8-openjdk-slim-bullseye
 docker pull jenkins/jenkins:2.289.3-lts-centos7
 # harbor
 docker pull goharbor/prepare:v1.9.2
-
+# elasticsearch
+## springboot:2.3.2.RELEASE 的对应版本
+docker pull elasticsearch:7.6.2
 
 
 ```
