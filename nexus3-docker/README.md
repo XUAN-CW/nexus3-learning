@@ -29,7 +29,23 @@ id: 1644661871858288100
 
 ![image-20220218194020243](assets/images/image-20220218194020243.png)
 
+# 使用者配置
 
+```sh
+echo "192.168.0.10 ps" >> /etc/hosts
+
+# 加入信任列表
+tee /etc/docker/daemon.json <<-'EOF'
+{
+  "registry-mirrors": ["http://ps:7001"],
+  "insecure-registries": ["ps:7001"]
+}
+EOF
+
+# 重启
+systemctl daemon-reload
+systemctl restart docker
+```
 
 
 
@@ -76,14 +92,12 @@ docker push nexus3-ip:7001/my-hello-world:1.0
 
 # 代理
 
-```
-http://ps:7000/repository/docker-private-server/
-```
+
 
 
 
 ```sh
-echo "192.168.0.10  ps" >> /etc/hosts
+echo "192.168.0.10 ps" >> /etc/hosts
 
 # 加入信任列表
 tee /etc/docker/daemon.json <<-'EOF'
