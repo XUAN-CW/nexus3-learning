@@ -117,7 +117,8 @@ docker pull ps:7002/my-hello-world:1.0
 # MySQL
 docker pull mysql:5.7
 docker pull mysql:5.7.30
-
+# nacos
+docker pull nacos:1.4.2
 ```
 
 
