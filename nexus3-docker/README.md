@@ -22,14 +22,16 @@ id: 1644661871858288100
 2. HTTP : 暴露的端口，我这里填 7002
 3. 勾选 **Allow anonymous docker pull** 
 
+![image-20220218202152756](assets/images/image-20220218202152756.png)
+
 ## docker (group)
 
 1. Name：随意，我这里填 docker-private-server
 2. HTTP : 暴露的端口，我这里填 7001
 3. 勾选 **Allow anonymous docker pull** 
-4. Member repositories : 添加刚才创建的 aliyuncs
+4. Member repositories : 添加刚才创建的 aliyuncs、docker-hosted 
 
-![image-20220218193851651](assets/images/image-20220218193851651.png)
+![image-20220218202323315](assets/images/image-20220218202323315.png)
 
 ## Docker Bearer Token Realm
 
