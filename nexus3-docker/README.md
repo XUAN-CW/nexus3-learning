@@ -134,7 +134,8 @@ docker pull tomcat:8.5.73-jre8-openjdk-slim-bullseye
 docker pull tomcat:9.0.56-jre8-openjdk-slim-bullseye
 # jenkins
 docker pull jenkins/jenkins:2.289.3-lts-centos7
-
+# harbor
+docker pull goharbor/prepare:v1.9.2
 
 
 
