@@ -50,9 +50,6 @@ systemctl restart docker
 使用 `docker info` 可以检查是否成功配置：
 
 ```
- Insecure Registries:
-  ps:7001
-  127.0.0.0/8
  Registry Mirrors:
   http://ps:7001/
 ```
