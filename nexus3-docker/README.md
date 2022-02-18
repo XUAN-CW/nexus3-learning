@@ -117,10 +117,6 @@ docker pull ps:7002/my-hello-world:1.0
 # MySQL
 docker pull mysql:5.7
 docker pull mysql:5.7.30
-# nacos
-## springboot:2.3.2.RELEASE 的对应版本
-docker pull nacos:1.4.2
-docker pull nacos:2.0.3
 # gitlab
 docker pull gitlab/gitlab-ce:12.4.2-ce.0
 # redis
@@ -140,7 +136,10 @@ docker pull goharbor/prepare:v1.9.2
 # elasticsearch
 ## springboot:2.3.2.RELEASE 的对应版本
 docker pull elasticsearch:7.6.2
-
+# nacos
+## springboot:2.3.2.RELEASE 的对应版本
+docker pull nacos:1.4.2
+docker pull nacos:2.0.3
 
 ```
 
