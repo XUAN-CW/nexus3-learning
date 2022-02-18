@@ -10,6 +10,14 @@ id: 1644675112080225900
 
 ## proxy
 
+| name                             | Remote storage                      |
+| -------------------------------- | ----------------------------------- |
+| maven-proxy-repository.jboss.com | http://repository.jboss.com/maven2/ |
+|                                  |                                     |
+|                                  |                                     |
+
+
+
 - jboss的maven中央仓库地址：http://repository.jboss.com/maven2/
 - 阿里云的maven中央仓库地址：http://maven.aliyun.com/nexus/content/groups/public/
 - apache的maven中央仓库地址：http://repo.maven.apache.org/maven2/
