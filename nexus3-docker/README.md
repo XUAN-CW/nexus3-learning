@@ -66,7 +66,7 @@ docker pull hello-world
 
 
 
-# 测试
+# hosted
 
 ## 加入授信列表
 
