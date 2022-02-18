@@ -123,6 +123,9 @@ docker pull nacos:1.4.2
 docker pull gitlab/gitlab-ce:12.4.2-ce.0
 # redis
 docker pull redis:5.0.8
+# jdk
+docker pull openjdk:8-jdk-alpine
+docker pull openjdk:8u312-oraclelinux8
 ```
 
 
