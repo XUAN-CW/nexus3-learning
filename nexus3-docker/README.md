@@ -16,7 +16,7 @@ id: 1644661871858288100
 
 ![image-20220218192615878](assets/images/image-20220218192615878.png)
 
-## docker-hosted
+## docker (hosted)
 
 1. Name：随意，我这里填 docker-hosted
 2. HTTP : 暴露的端口，我这里填 7002
