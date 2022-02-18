@@ -35,10 +35,12 @@ id: 1644661871858288100
 # 配置域名，方便与 IP 地址解耦
 echo "192.168.0.10 ps" >> /etc/hosts
 
-# 添加镜像
+# 添加镜像、加入授信列表
 tee /etc/docker/daemon.json <<-'EOF'
 {
-  "registry-mirrors": ["http://ps:7001"]
+
+  "registry-mirrors": ["http://ps:7001"],
+  "insecure-registries": ["ps:7002"]
 }
 EOF
 
@@ -50,6 +52,9 @@ systemctl restart docker
 使用 `docker info` 可以检查是否成功配置：
 
 ```
+ Insecure Registries:
+  ps:7002
+  127.0.0.0/8
  Registry Mirrors:
   http://ps:7001/
 ```
