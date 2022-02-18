@@ -24,7 +24,26 @@ id: 1644661871858288100
 
 ![image-20220218192615878](assets/images/image-20220218192615878.png)
 
+## docker (group)
 
+
+
+
+
+
+
+![image-20220218192929564](assets/images/image-20220218192929564.png)
+
+
+
+### 填写
+
+1. Name：随意，我这里填 docker-private-server
+2. HTTP : 暴露的端口，我这里填 7001
+3. 勾选 **Allow anonymous docker pull** 
+4. Member repositories : 添加刚才创建的 aliyuncs
+
+![image-20220218193311362](assets/images/image-20220218193311362.png)
 
 
 
