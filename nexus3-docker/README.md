@@ -18,11 +18,11 @@ id: 1644661871858288100
 
 如果你想代理更多，多加几个，都是一样的步骤：
 
-| name                               | Remote storage                |
-| ---------------------------------- | ----------------------------- |
-| docker-proxy-gcr.io                | https://gcr.io                |
-| docker-proxy-registry.aliyuncs.com | https://registry.aliyuncs.com |
-|                                    |                               |
+| name                                           | Remote storage                            |
+| ---------------------------------------------- | ----------------------------------------- |
+| docker-proxy-gcr.io                            | https://gcr.io                            |
+| docker-proxy-registry.aliyuncs.com             | https://registry.aliyuncs.com             |
+| docker-proxy-registry.cn-hangzhou.aliyuncs.com | https://registry.cn-hangzhou.aliyuncs.com |
 
 ## docker (hosted)
 
