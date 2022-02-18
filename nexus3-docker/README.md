@@ -35,7 +35,7 @@ id: 1644661871858288100
 # 配置域名，方便与 IP 地址解耦
 echo "192.168.0.10 ps" >> /etc/hosts
 
-# 加入信任列表
+# 添加镜像
 tee /etc/docker/daemon.json <<-'EOF'
 {
   "registry-mirrors": ["http://ps:7001"],
