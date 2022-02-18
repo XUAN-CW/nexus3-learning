@@ -12,7 +12,7 @@ id: 1644661871858288100
 
 1. Name：随意，我这里填 aliyuncs
 2. 勾选 **Allow anonymous docker pull** 
-3. 填写 Remote storage : https://6kx4zyno.mirror.aliyuncs.com 
+3. 填写 Remote storage : https://6kx4zyno.mirror.aliyuncs.com
 
 ![image-20220218192615878](assets/images/image-20220218192615878.png)
 
@@ -32,7 +32,7 @@ id: 1644661871858288100
 # 使用者配置
 
 ```sh
-# 配置域名，方便 IP d
+# 配置域名，方便与 IP 地址解耦
 echo "192.168.0.10 ps" >> /etc/hosts
 
 # 加入信任列表
@@ -46,6 +46,16 @@ EOF
 # 重启
 systemctl daemon-reload
 systemctl restart docker
+```
+
+使用 `docker info` 可以检查是否成功配置：
+
+```
+ Insecure Registries:
+  ps:7001
+  127.0.0.0/8
+ Registry Mirrors:
+  http://ps:7001/
 ```
 
 
