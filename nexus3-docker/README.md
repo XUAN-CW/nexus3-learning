@@ -83,13 +83,14 @@ docker pull hello-world
 ```sh
 # 登录 
 docker login -u admin -p admin123 ps:7002
-# 测试
+# push 测试
 docker pull hello-world
 docker tag hello-world:latest ps:7002/my-hello-world:1.0
 docker push ps:7002/my-hello-world:1.0
-
+# 删除本地镜像
 docker image rm -f  $(docker image ls -q)
-
+# pull c
+docker pull ps:7002/my-hello-world:1.0
 ```
 
 
