@@ -6,7 +6,7 @@ id: 1644661871858288100
 ---
 # 摘要
 
-# nexus3配置
+# nexus3 配置
 
 ## docker (proxy)
 
