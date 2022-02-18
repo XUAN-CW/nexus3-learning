@@ -72,3 +72,38 @@ docker pull hello-world
 
 
 
+----
+
+
+
+
+
+# hosted
+
+## 加入授信列表
+
+```sh
+tee /etc/docker/daemon.json <<-'EOF'
+{
+
+  "registry-mirrors": ["http://ps:7001"],
+  "insecure-registries": ["ps:7002"]
+}
+EOF
+
+# 重启
+systemctl daemon-reload
+systemctl restart docker
+```
+
+## push 
+
+```sh
+# 登录 
+docker login -u admin -p admin123 ps:7002
+# 测试
+docker pull hello-world
+docker tag hello-world:latest ps:7002/my-hello-world:1.0
+docker push ps:7002/my-hello-world:1.0
+```
+
