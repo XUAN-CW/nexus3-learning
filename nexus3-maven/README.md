@@ -8,8 +8,6 @@ id: 1644675112080225900
 
 # 私服搭建
 
-## hosted
-
 ## proxy
 
 - jboss的maven中央仓库地址：http://repository.jboss.com/maven2/
