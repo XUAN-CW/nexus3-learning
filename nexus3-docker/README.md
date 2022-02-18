@@ -16,9 +16,13 @@ id: 1644661871858288100
 
 ![image-20220218192615878](assets/images/image-20220218192615878.png)
 
-如果你想代理更多，多加几个：
+如果你想代理更多，多加几个，都是一样的步骤：
 
-- https://gcr.io 
+| name             | Remote storage |
+| ---------------- | -------------- |
+| docker-proxy-gcr | https://gcr.io |
+|                  |                |
+|                  |                |
 
 ## docker (hosted)
 
