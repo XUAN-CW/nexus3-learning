@@ -10,11 +10,15 @@ id: 1644661871858288100
 
 ## docker (proxy)
 
-1. Name：随意，我这里填 aliyuncs
+1. Name：随意，我这里填 aliyuncs，你也可以填 docker-proxy-aliyuncs ，随意
 2. 勾选 **Allow anonymous docker pull** 
 3. 填写 Remote storage : https://6kx4zyno.mirror.aliyuncs.com
 
 ![image-20220218192615878](assets/images/image-20220218192615878.png)
+
+如果你想代理更多，多加几个：
+
+- https://gcr.io 
 
 ## docker (hosted)
 
