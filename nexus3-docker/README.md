@@ -127,7 +127,14 @@ docker pull redis:5.0.8
 docker pull openjdk:8-jdk-alpine
 docker pull openjdk:8u312-oraclelinux8
 # nginx 
-docker pull nginx:1.1
+docker pull nginx:1.16.1
+# tomcat
+# jenkins
+docker jenkins/jenkins:2.289.3-lts-centos7
+
+
+
+
 ```
 
 
