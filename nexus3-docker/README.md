@@ -78,8 +78,6 @@ docker pull hello-world
 
 ![image-20220218200015413](assets/images/image-20220218200015413.png)
 
-
-
 ## push 测试
 
 ```sh
