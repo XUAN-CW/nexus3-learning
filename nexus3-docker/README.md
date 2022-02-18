@@ -60,9 +60,13 @@ systemctl restart docker
 
 # 测试
 
+```sh
+docker pull hello-world
+```
 
+拉取镜像后可见：
 
-
+![image-20220218200015413](assets/images/image-20220218200015413.png)
 
 
 
@@ -101,41 +105,9 @@ docker tag hello-world:latest nexus3-ip:7001/my-hello-world:1.0
 docker push nexus3-ip:7001/my-hello-world:1.0
 ```
 
-# 其他模式介绍
-
- [Nexus3搭建Docker等私服.html](assets\references\Nexus3搭建Docker等私服.html) 
 
 
-
-# 代理
-
-
-
-
-
-```sh
-echo "192.168.0.10 ps" >> /etc/hosts
-
-# 加入信任列表
-tee /etc/docker/daemon.json <<-'EOF'
-{
-  "registry-mirrors": ["http://ps:7001"],
-  "insecure-registries": ["ps:7001"]
-}
-EOF
-
-# 重启
-systemctl daemon-reload
-systemctl restart docker
-```
-
-
-
-```
-docker info 
-```
-
-
+# 参考
 
  [利用nexus作为私库进行代理docker,进行上传和下载镜像操作.html](assets\references\利用nexus作为私库进行代理docker,进行上传和下载镜像操作.html) 
 
