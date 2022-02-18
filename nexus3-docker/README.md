@@ -70,7 +70,7 @@ docker push nexus3-ip:7001/my-hello-world:1.0
 
 
 
-# group
+# 代理
 
 ```
 http://ps:7000/repository/docker-private-server/
