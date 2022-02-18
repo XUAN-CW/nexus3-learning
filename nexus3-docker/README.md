@@ -119,6 +119,8 @@ docker pull mysql:5.7
 docker pull mysql:5.7.30
 # nacos
 docker pull nacos:1.4.2
+# gitlab
+dgitlab/gitlab-ce:12.4.2-ce.0
 ```
 
 
