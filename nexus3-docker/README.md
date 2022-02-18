@@ -68,6 +68,8 @@ systemctl restart docker
 
 # 测试
 
+## 代理测试
+
 ```sh
 docker pull hello-world
 ```
@@ -76,39 +78,9 @@ docker pull hello-world
 
 ![image-20220218200015413](assets/images/image-20220218200015413.png)
 
-# 参考
-
- [利用nexus作为私库进行代理docker,进行上传和下载镜像操作.html](assets\references\利用nexus作为私库进行代理docker,进行上传和下载镜像操作.html) 
 
 
-
-
-
-----
-
-
-
-
-
-# hosted
-
-## 加入授信列表
-
-```sh
-tee /etc/docker/daemon.json <<-'EOF'
-{
-
-  "registry-mirrors": ["http://ps:7001"],
-  "insecure-registries": ["ps:7002"]
-}
-EOF
-
-# 重启
-systemctl daemon-reload
-systemctl restart docker
-```
-
-## push 
+## push 测试
 
 ```sh
 # 登录 
@@ -118,4 +90,11 @@ docker pull hello-world
 docker tag hello-world:latest ps:7002/my-hello-world:1.0
 docker push ps:7002/my-hello-world:1.0
 ```
+
+
+
+# 参考
+
+ [利用nexus作为私库进行代理docker,进行上传和下载镜像操作.html](assets\references\利用nexus作为私库进行代理docker,进行上传和下载镜像操作.html) 
+
 
