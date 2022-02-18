@@ -126,6 +126,8 @@ docker pull redis:5.0.8
 # jdk
 docker pull openjdk:8-jdk-alpine
 docker pull openjdk:8u312-oraclelinux8
+# nginx 
+docker pull nginx:1.1
 ```
 
 
