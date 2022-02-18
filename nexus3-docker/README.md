@@ -106,3 +106,41 @@ docker pull ps:7002/my-hello-world:1.0
  [利用nexus作为私库进行代理docker,进行上传和下载镜像操作.html](assets\references\利用nexus作为私库进行代理docker,进行上传和下载镜像操作.html) 
 
  [使用nexus3.x配置docker镜像仓库及仓库代理.html](assets\references\使用nexus3.x配置docker镜像仓库及仓库代理.html) 
+
+
+
+
+
+# 本人常用 docker 镜像
+
+```sh
+
+docker pull calico/node:v3.21.2
+docker pull calico/pod2daemon-flexvol:v3.21.2
+docker pull calico/cni:v3.21.2
+docker pull calico/kube-controllers:v3.21.2
+docker pull registry.aliyuncs.com/google_containers/kube-proxy:v1.20.9
+docker pull kubesphere/ks-controller-manager:v3.1.1
+docker pull kubesphere/ks-apiserver:v3.1.1
+docker pull kubesphere/ks-console:v3.1.1
+docker pull redis:5.0.12-alpine
+docker pull kubespheredev/openpitrix-jobs:v3.1.1
+docker pull kubesphere/ks-jenkins:2.249.1
+docker pull kubesphere/fluent-bit:v1.6.9
+docker pull jettech/kube-webhook-certgen:v1.5.1
+docker pull kubesphere/kube-rbac-proxy:v0.8.0
+docker pull istio/proxyv2:1.6.10
+docker pull istio/pilot:1.6.10
+docker pull osixia/openldap:1.3.0
+docker pull lizhenliang/nginx-ingress-controller:0.30.0
+docker pull google_containers/pause:3.2
+docker pull registry.cn-hangzhou.aliyuncs.com/google_containers/pause:3.2
+docker pull kubesphere/elasticsearch-oss:6.7.0-1
+docker pull prom/node-exporter:v0.18.1
+
+```
+
+
+
+
+
