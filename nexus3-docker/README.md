@@ -118,6 +118,7 @@ docker pull ps:7002/my-hello-world:1.0
 docker pull mysql:5.7
 docker pull mysql:5.7.30
 # nacos
+## springboot:2.3.2.RELEASE 的对应版本
 docker pull nacos:1.4.2
 docker pull nacos:2.0.3
 # gitlab
