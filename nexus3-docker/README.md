@@ -70,17 +70,39 @@ docker push nexus3-ip:7001/my-hello-world:1.0
 
 
 
+# group
+
+```
+http://ps:7000/repository/docker-private-server/
+```
 
 
 
+```sh
+echo "192.168.0.10  ps" >> /etc/hosts
+
+# 加入信任列表
+tee /etc/docker/daemon.json <<-'EOF'
+{
+  "registry-mirrors": ["http://ps:7001"],
+  "insecure-registries": ["ps:7001"]
+}
+EOF
+
+# 重启
+systemctl daemon-reload
+systemctl restart docker
+```
 
 
 
+```
+docker info 
+```
 
 
 
-
-
+ [利用nexus作为私库进行代理docker,进行上传和下载镜像操作.html](assets\references\利用nexus作为私库进行代理docker,进行上传和下载镜像操作.html) 
 
 
 
