@@ -87,6 +87,9 @@ docker login -u admin -p admin123 ps:7002
 docker pull hello-world
 docker tag hello-world:latest ps:7002/my-hello-world:1.0
 docker push ps:7002/my-hello-world:1.0
+
+docker image rm -f  $(docker image ls -q)
+
 ```
 
 
