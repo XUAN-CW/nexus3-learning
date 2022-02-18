@@ -25,9 +25,9 @@ id: 1644661871858288100
 
 ![image-20220218193851651](assets/images/image-20220218193851651.png)
 
+## Docker Bearer Token Realm
 
-
-
+![image-20220218194020243](assets/images/image-20220218194020243.png)
 
 
 
