@@ -119,6 +119,7 @@ docker pull mysql:5.7
 docker pull mysql:5.7.30
 # nacos
 docker pull nacos:1.4.2
+docker pull nacos:2.0.3
 # gitlab
 docker pull gitlab/gitlab-ce:12.4.2-ce.0
 # redis
@@ -129,8 +130,10 @@ docker pull openjdk:8u312-oraclelinux8
 # nginx 
 docker pull nginx:1.16.1
 # tomcat
+docker pull tomcat:8.5.73-jre8-openjdk-slim-bullseye
+docker pull tomcat:9.0.56-jre8-openjdk-slim-bullseye
 # jenkins
-docker jenkins/jenkins:2.289.3-lts-centos7
+docker pull jenkins/jenkins:2.289.3-lts-centos7
 
 
 
