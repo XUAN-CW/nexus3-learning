@@ -137,7 +137,6 @@ docker pull google_containers/pause:3.2
 docker pull registry.cn-hangzhou.aliyuncs.com/google_containers/pause:3.2
 docker pull kubesphere/elasticsearch-oss:6.7.0-1
 docker pull prom/node-exporter:v0.18.1
-
 ```
 
 
