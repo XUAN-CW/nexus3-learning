@@ -93,8 +93,6 @@ docker image rm -f  ps:7002/my-hello-world:1.0
 docker pull ps:7002/my-hello-world:1.0
 ```
 
-
-
 # 参考
 
  [利用nexus作为私库进行代理docker,进行上传和下载镜像操作.html](assets\references\利用nexus作为私库进行代理docker,进行上传和下载镜像操作.html) 
