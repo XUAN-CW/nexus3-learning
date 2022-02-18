@@ -16,6 +16,11 @@ id: 1644661871858288100
 
 ![image-20220218192615878](assets/images/image-20220218192615878.png)
 
+## docker-hosted
+
+1. Name：随意，我这里填 docker-hosted
+2. 勾选 **Allow anonymous docker pull** 
+
 ## docker (group)
 
 1. Name：随意，我这里填 docker-private-server
@@ -63,45 +68,6 @@ docker pull hello-world
 拉取镜像后可见：
 
 ![image-20220218200015413](assets/images/image-20220218200015413.png)
-
-
-
-# hosted
-
-## 加入授信列表
-
-别忘了修改 **nexus3-ip** 为自己的 nexus3 IP
-
-```sh
-tee /etc/docker/daemon.json <<-'EOF'
-{
-  "insecure-registries": ["nexus3-ip:7001"]
-}
-EOF
-
-# 重启
-systemctl daemon-reload
-systemctl restart docker
-```
-
-## 登录
-
-```sh
-docker login -u admin -p admin123 nexus3-ip:7001
-```
-
-## push 
-
-- push 前记得登录
-- 别忘了修改 **nexus3-ip** 为自己的 nexus3 IP
-
-```sh
-docker pull hello-world
-docker tag hello-world:latest nexus3-ip:7001/my-hello-world:1.0
-docker push nexus3-ip:7001/my-hello-world:1.0
-```
-
-
 
 # 参考
 
