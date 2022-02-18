@@ -13,8 +13,14 @@ docker container rm -f nexus3
 rm -rf /docker-v/nexus3/
 mkdir -p /docker-v/nexus3/nexus-data
 chmod 777 -R /docker-v/nexus3/
-docker run -itd  -p 7000:8081 -p 7001-7100:7001-7100 -v /docker-v/nexus3/nexus-data:/nexus-data --privileged=true --restart=always --name=nexus3 sonatype/nexus3:3.16.2
-watch docker logs nexus3
+docker run -itd  \
+  -p 7000:8081 \
+  -p 7001-7100:7001-7100 \
+  -v /docker-v/nexus3/nexus-data:/nexus-data \
+  --privileged=true \
+  --restart=always \
+  --name=nexus3 \
+  sonatype/nexus3:3.16.2
 ```
 
 # 访问
