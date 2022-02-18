@@ -6,24 +6,27 @@ id: 1644661871858288100
 ---
 # 摘要
 
+# 实现步骤
+
+## docker (proxy)
+
+### Create Repository: docker (proxy)
+
+创建一个 docker 代理仓库
+
+![image-20220218192100049](assets/images/image-20220218192100049.png)
+
+### 填写
+
+1. Name：随意，我这里填 aliyuncs
+2. 勾选 **Allow anonymous docker pull** 
+3. 填写 Remote storage : https://6kx4zyno.mirror.aliyuncs.com 
+
+![image-20220218192615878](assets/images/image-20220218192615878.png)
 
 
-# 运行
 
-```sh
-docker container rm -f nexus3
-rm -rf /docker-v/nexus3/
-mkdir -p /docker-v/nexus3/nexus-data
-chmod 777 -R /docker-v/nexus3/
-docker run -itd  -p 7000:8081 -p 7001-7100:7001-7100 -v /docker-v/nexus3/nexus-data:/nexus-data --privileged=true --restart=always --name=nexus3 sonatype/nexus3:3.16.2
-watch docker logs nexus3
-```
 
-# 访问
-
-- 路径： http://nexus3-ip:7000/
-- 账号：admin
-- 密码：admin123
 
 # Create repository
 
