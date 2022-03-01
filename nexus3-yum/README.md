@@ -24,6 +24,7 @@ id: 1644733303678989500
 配置仓库：
 
 ```
+# yum-proxy-opsx.alibaba.com
 [private-os]
 name=private-os
 baseurl=http://ps:7000/repository/yum-proxy-opsx.alibaba.com/\$releasever/os/\$basearch/
@@ -54,9 +55,18 @@ baseurl=http://ps:7000/repository/yum-proxy-opsx.alibaba.com/\$releasever/config
 enabled=1
 gpgcheck=0
 
+
+# yum-proxy-download.docker.com
 [private-docker-ce]
 name=private-docker-cedocker-ce
 baseurl=http://ps:7000/repository/yum-proxy-download.docker.com/$releasever/$basearch/stable/
+enabled=1
+gpgcheck=0
+
+# yum-proxy-mirrors.aliyun.com
+[private-epel]
+name=private-epel
+baseurl=http://ps:7000/repository/yum-proxy-mirrors.aliyun.com/epel/7/x86_64/
 enabled=1
 gpgcheck=0
 
