@@ -12,9 +12,12 @@ id: 1644733303678989500
 
 ## proxy
 
-- centos https://opsx.alibaba.com/centos/
-- docker-ce https://download.docker.com/linux/centos/
-- kubernetes http://mirrors.aliyun.com/kubernetes/yum/repos/kubernetes-el7-x86_64
+| name                          | Remote storage                                               |
+| ----------------------------- | ------------------------------------------------------------ |
+| yum-proxy-mirror.centos.org   | http://mirror.centos.org/centos/                             |
+| yum-proxy-opsx.alibaba.com    | https://opsx.alibaba.com/centos/                             |
+| yum-proxy-download.docker.com | https://download.docker.com/linux/centos/                    |
+| yum-proxy-mirrors.aliyun.com  | http://mirrors.aliyun.com/kubernetes/yum/repos/kubernetes-el7-x86_64 |
 
 ## 使用者配置
 
