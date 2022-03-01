@@ -13,7 +13,6 @@ id: 1644733303678989500
 ## proxy
 
 - centos https://opsx.alibaba.com/centos/
-- epel http://mirrors.aliyun.com/centos/
 - docker-ce https://download.docker.com/linux/centos/
 - kubernetes http://mirrors.aliyun.com/kubernetes/yum/repos/kubernetes-el7-x86_64
 - proxy-yum-mirrors.163.com ：http://mirrors.163.com/centos/7/updates/x86_64/ 
