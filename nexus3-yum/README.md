@@ -14,7 +14,6 @@ id: 1644733303678989500
 
 | name                          | Remote storage                            |
 | ----------------------------- | ----------------------------------------- |
-| yum-proxy-mirror.centos.org   | http://mirror.centos.org/centos/          |
 | yum-proxy-opsx.alibaba.com    | https://opsx.alibaba.com/centos/          |
 | yum-proxy-download.docker.com | https://download.docker.com/linux/centos/ |
 | yum-proxy-mirrors.aliyun.com  | http://mirrors.aliyun.com/                |
