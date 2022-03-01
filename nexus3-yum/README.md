@@ -76,6 +76,13 @@ gpgcheck=0
 # 测试
 
 ```sh
+yum clean all && yum makecache fast    
+# 如果 makecache 报错，请关注最后一条输出，确认是哪个url找不到，然后进行修改
+```
+
+
+
+```sh
 # 清理缓存
 yum clean all 
 yum makecache
