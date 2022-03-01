@@ -12,12 +12,12 @@ id: 1644733303678989500
 
 ## proxy
 
-| name                          | Remote storage                                               |
-| ----------------------------- | ------------------------------------------------------------ |
-| yum-proxy-mirror.centos.org   | http://mirror.centos.org/centos/                             |
-| yum-proxy-opsx.alibaba.com    | https://opsx.alibaba.com/centos/                             |
-| yum-proxy-download.docker.com | https://download.docker.com/linux/centos/                    |
-| yum-proxy-mirrors.aliyun.com  | http://mirrors.aliyun.com/kubernetes/yum/repos/kubernetes-el7-x86_64 |
+| name                          | Remote storage                            |
+| ----------------------------- | ----------------------------------------- |
+| yum-proxy-mirror.centos.org   | http://mirror.centos.org/centos/          |
+| yum-proxy-opsx.alibaba.com    | https://opsx.alibaba.com/centos/          |
+| yum-proxy-download.docker.com | https://download.docker.com/linux/centos/ |
+| yum-proxy-mirrors.aliyun.com  | http://mirrors.aliyun.com/                |
 
 ## 使用者配置
 
@@ -62,7 +62,7 @@ gpgcheck=0
 
 [private-kubernetes]
 name=kubernetes
-baseurl=http://ps:7000/repository/yum-proxy-mirrors.aliyun.com/
+baseurl=http://ps:7000/repository/yum-proxy-mirrors.aliyun.com/kubernetes/yum/repos/kubernetes-el7-x86_64
 enabled=1
 gpgcheck=0
 
