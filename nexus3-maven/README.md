@@ -29,7 +29,7 @@ id: 1644675112080225900
         <id>nexus</id>  
         <username>admin</username>  
         <password>admin123</password>  
-    </server>   
+    </server>
   </servers>  
   <!--组资源库的url地址  id和name自定义，mirrorOf的值设置为central，写死的-->  
   <mirrors>     
@@ -39,7 +39,7 @@ id: 1644675112080225900
         <url>http://ps:7000/repository/maven-private-server/</url>  
         <mirrorOf>central</mirrorOf>  
     </mirror>     
-  </mirrors>  
+  </mirrors>
 ```
 
 
