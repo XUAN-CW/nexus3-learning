@@ -26,43 +26,43 @@ id: 1644733303678989500
 ```
 [private-os]
 name=private-os
-baseurl=http://ps:7000/repository/centos/\$releasever/os/\$basearch/
+baseurl=http://ps:7000/repository/yum-proxy-opsx.alibaba.com/\$releasever/os/\$basearch/
 enabled=1
 gpgcheck=0
 
 [private-updates]
 name=private-updates
-baseurl=http://ps:7000/repository/centos/\$releasever/updates/\$basearch/
+baseurl=http://ps:7000/repository/yum-proxy-opsx.alibaba.com/\$releasever/updates/\$basearch/
 enabled=1
 gpgcheck=0
 
 [private-extras]
 name=private-extras
-baseurl=http://ps:7000/repository/centos/\$releasever/extras/\$basearch/
+baseurl=http://ps:7000/repository/yum-proxy-opsx.alibaba.com/\$releasever/extras/\$basearch/
 enabled=1
 gpgcheck=0
 
 [private-centosplus]
 name=private-centosplus
-baseurl=http://ps:7000/repository/centos/\$releasever/centosplus/\$basearch/
+baseurl=http://ps:7000/repository/yum-proxy-opsx.alibaba.com/\$releasever/centosplus/\$basearch/
 enabled=1
 gpgcheck=0
 
 [private-configmanagement]
 name=private-configmanagement
-baseurl=http://ps:7000/repository/centos/\$releasever/configmanagement/\$basearch/ansible-29/
+baseurl=http://ps:7000/repository/yum-proxy-opsx.alibaba.com/\$releasever/configmanagement/\$basearch/ansible-29/
 enabled=1
 gpgcheck=0
 
 [private-docker-ce]
-name=docker-ce
-baseurl=http://ps:7000/repository/docker-ce/$releasever/$basearch/stable/
+name=private-docker-cedocker-ce
+baseurl=http://ps:7000/repository/yum-proxy-download.docker.com/$releasever/$basearch/stable/
 enabled=1
 gpgcheck=0
 
 [private-kubernetes]
 name=kubernetes
-baseurl=http://ps:7000/repository/kubernetes/
+baseurl=http://ps:7000/repository/yum-proxy-mirrors.aliyun.com/
 enabled=1
 gpgcheck=0
 
