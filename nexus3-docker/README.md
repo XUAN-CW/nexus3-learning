@@ -140,7 +140,8 @@ docker pull elasticsearch:7.6.2
 ## springboot:2.3.2.RELEASE 的对应版本
 docker pull nacos:1.4.2
 docker pull nacos:2.0.3
-
+# node LTS
+docker pull node:16.14.0-bullseye
 ```
 
 
