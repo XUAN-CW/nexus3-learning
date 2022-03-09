@@ -23,6 +23,7 @@ id: 1644661871858288100
 | docker-proxy-gcr.io                            | https://gcr.io                            |
 | docker-proxy-registry.aliyuncs.com             | https://registry.aliyuncs.com             |
 | docker-proxy-registry.cn-hangzhou.aliyuncs.com | https://registry.cn-hangzhou.aliyuncs.com |
+| docker-proxy-registry-1.docker.io              | https://registry-1.docker.io              |
 
 ## docker (hosted)
 
