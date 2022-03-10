@@ -20,6 +20,14 @@ id: 1644733303678989500
 
 ## 使用者配置
 
+### 删除多余repo
+
+```
+rm -rf /etc/yum.repos.d/CentOS-*
+```
+
+### 配置私服
+
 配置仓库 `/etc/yum.repos.d/yum-private-service.repo` ：
 
 ```
