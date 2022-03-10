@@ -20,7 +20,7 @@ id: 1644733303678989500
 
 ## 使用者配置
 
-配置仓库：
+配置仓库 `/etc/yum.repos.d/yum-private-service.repo` ：
 
 ```
 # yum-proxy-opsx.alibaba.com
