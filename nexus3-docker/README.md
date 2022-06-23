@@ -20,7 +20,7 @@ id: 1644661871858288100
 
 | name                                           | Remote storage                            |
 | ---------------------------------------------- | ----------------------------------------- |
-| docker-proxy-gcr.io                            | https://k8s.gcr.io                        |
+| docker-proxy-k8s.gcr.io                        | https://k8s.gcr.io                        |
 | docker-proxy-registry.aliyuncs.com             | https://registry.aliyuncs.com             |
 | docker-proxy-registry.cn-hangzhou.aliyuncs.com | https://registry.cn-hangzhou.aliyuncs.com |
 | docker-proxy-registry-1.docker.io              | https://registry-1.docker.io              |
