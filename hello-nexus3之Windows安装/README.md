@@ -49,7 +49,7 @@ nexus-3.16.2-01/  sonatype-work/
 
 # 迁移与备份
 
-默认情况下，需要备份的资料在 sonatype-work 文件夹下
+默认情况下，需要备份的资料在 sonatype-work 文件夹下，直接复制粘贴这个文件夹就可以了
 
 
 
