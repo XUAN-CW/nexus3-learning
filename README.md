@@ -6,6 +6,14 @@ id: 1645182975702940300
 ---
 # 摘要
 
+
+
+# 版本选择
+
+[Nexus Repository Manager 3.16.2-01](https://help.sonatype.com/repomanager3/product-information/download/download-archives---repository-manager-3#DownloadArchivesRepositoryManager3-NexusRepositoryManager3.16.2-01) 
+
+
+
 # 运行
 
 ```sh
