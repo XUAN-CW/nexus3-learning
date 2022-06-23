@@ -1,8 +1,8 @@
 ---
-title: nexus3-learning
+title: hello-nexus3之docker安装
 tags: 
-date: 2022-02-18 19:16:15
-id: 1645182975702940300
+date: 2022-06-23 14:16:21
+id: 1655964981189445000
 ---
 # 摘要
 
@@ -36,3 +36,13 @@ docker run -itd  \
 - 路径： http://nexus3-ip:7000/
 - 账号：admin
 - 密码：admin123
+
+
+
+# 迁移与备份
+
+
+
+
+
+直接备份整个/nexus-data目录即可，建议将此卷挂载出来，作为备份对象，详情见 [Nexus数据的备份与恢复.html](assets\references\Nexus数据的备份与恢复.html) 
