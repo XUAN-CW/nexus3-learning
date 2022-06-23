@@ -22,7 +22,7 @@ $ ls
 nexus-3.16.2-01/  sonatype-work/
 ```
 
-在 **nexus-3.16.2-01/bin** 目录下使用管理员身份打开 power shell：
+根据 [Run as a Service - Windows](https://help.sonatype.com/repomanager3/installation-and-upgrades/run-as-a-service#RunasaService-Windows) 的指示，在 **nexus-3.16.2-01/bin** 目录下使用管理员身份打开 **power shell**：
 
 简单启动一下，关了命令行就没了：
 
