@@ -38,4 +38,4 @@ id: 1655965242887928400
 
 1. application-host : Nexus服务监听的主机
 
-2. application-port: Nexus服务监听的端口，
+2. application-port: Nexus服务监听的端口
