@@ -14,7 +14,7 @@ id: 1655965242887928400
 
 # 启动
 
-解压后在 bin 目录下使用管理员身份打开 power shell：
+解压后在 **bin** 目录下使用管理员身份打开 power shell：
 
 简单启动一下，关了命令行就没了：
 
@@ -31,3 +31,11 @@ id: 1655965242887928400
 # 访问
 
  http://localhost:8081/
+
+# 配置
+
+**nexus-3.14.0-04/etc/nexus-default.properties** 可进行配置，下面说两个常用配置：
+
+1. application-host : Nexus服务监听的主机
+
+2. application-port: Nexus服务监听的端口，
